@@ -1,0 +1,81 @@
+body {
+  background-color: #00FFFF
+  font-family: Verdana;
+}
+nav {
+  background-color: brown;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  display: inline-block;
+  text-align: center;
+  background-color: lightgreen;
+  width: 200px;
+  border-style: solid;
+  border-width: thick;
+  border-color: red;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin-left: 180px;
+}
+li:hover {
+  background-color: blue;
+  border-color: green;
+}
+.overmij {
+  width: auto ;
+  background-image: url(afbeelding/bjorn.jpg);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #9400D3;
+  margin-left: auto;
+}
+h2 {
+  text-align: center;
+}
+h2, p{
+  margin-right: 650px;
+}
+#copyright {
+  width: 20px;
+  height: 20px;
+  margin-top: 200px;
+}
+#copyright, #p_copyright {
+  display: inline-block;
+  padding: 5px;
+  background-color: red;
+}
+table, thead,tbody,  tr, th, td {
+  border-collapse: collapse;
+  border-color: green;
+  border-style: solid;
+  text-shadow: 2px 2px 2px yellow;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+form {
+  font-family: cursive;
+  margin-left: 500px;
+}
+input, textarea, button {
+  display: block;
+  margin: 5px;
+  width: 300px;
+  border-width: thin;
+  border-color: green;
+  border-radius: 10px;
+  text-align: center;
+}
+textarea {
+  height: 300px;
+}
+button:active {
+  background: red;
+  color: yellow;
+}
